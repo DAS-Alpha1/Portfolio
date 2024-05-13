@@ -121,14 +121,7 @@ console.log(formref.current,"formref.current");
             className="bg-transparent border-2 border-[#3b83f678] px-2 py-1 rounded-md w-full"
             ref={formemailref}
           />
-           <input
-            type="text"
-            required
-            placeholder="tomailid"
-            name="tomailid"
-            className="bg-transparent border-2 border-[#3b83f678] px-2 py-1 rounded-md w-full"
-            ref={formtoemailref}
-          />
+           
           <textarea
             placeholder="Message"
             name="message"
