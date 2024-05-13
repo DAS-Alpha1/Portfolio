@@ -19,7 +19,7 @@ function Contact() {
     e.preventDefault();
 console.log(formref.current,"formref.current");
     emailjs
-      .sendForm("service_6cygz1i", "template_nfyi4dv", formref.current, {
+      .sendForm("service_6cygz1i", "template_5x8dk6a", formref.current, {
         publicKey: "Y-ApHvZfuWfHPg4k8",
       })
       .then(
